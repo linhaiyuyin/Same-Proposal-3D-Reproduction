@@ -1,0 +1,15 @@
+recipe	config	cohort	method
+teacher	cfgs/kitti_models/voxel_rcnn_clean_three_class.yaml
+second	cfgs/kitti_models/second.yaml
+no-kd040	cfgs/kitti_controls/second-x0.40-no-kd.yaml
+clean040	cfgs/kitti_CLEAN/second-voxel-x0.40.yaml	0.40	CLEAN
+late040	cfgs/kitti_methods/round1-stage-late.yaml	0.40	Late box
+early040	cfgs/kitti_methods/paper-stage-040-early.yaml	0.40	Early box
+matched-gt040	cfgs/kitti_methods/paper-stage-040-matched-gt.yaml	0.40	Matched GT
+count-matched040	cfgs/kitti_methods/paper-stage-040-count-matched.yaml	0.40	Count-matched late
+fisher040	cfgs/kitti_methods/fisher-aligned.yaml	0.40	Group Fisher + GT
+sparsekd040	cfgs/kitti_controls/second-x0.40-sparsekd.yaml	0.40	SparseKD (KITTI)
+clean025	cfgs/kitti_CLEAN/second-voxel-x0.25.yaml	0.25	CLEAN
+late025	cfgs/kitti_methods/paper-stage-025-late.yaml	0.25	Late box
+bev-bn	cfgs/kitti_methods/ch3-v3-b-formal-bn.yaml	BEV 0.40	BEV BN calibration
+bev-reconstructed	cfgs/kitti_methods/ch3-v3-b-formal-reconstructed.yaml	BEV 0.40	BEV reconstruction

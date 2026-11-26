@@ -1,0 +1,29 @@
+# Cross-stage SparseKD adapted to KITTI and the same structurally pruned SECOND.
+_BASE_CONFIG_: cfgs/kitti_CLEAN/second-voxel-x0.40.yaml
+DATA_CONFIG:
+    _BASE_CONFIG_: cfgs/dataset_configs/kitti_dataset.yaml
+MODEL:
+    KD_TRANS_BLOCK: null
+KD:
+    TEACHER_MODE: eval
+    LOGIT_KD:
+        ENABLED: True
+        MODE: raw_pred
+    FEATURE_KD:
+        ENABLED: False
+    LABEL_ASSIGN_KD:
+        ENABLED: True
+        SCORE_TYPE: cls
+        SCORE_THRESH: [0.6, 0.6, 0.6]
+KD_LOSS:
+    HM_LOSS:
+        type: MSELoss
+        sigmoid: True
+        weight: 15.0
+        fg_mask_anchor: True
+        count_ignore: False
+        soft_mask: True
+        tea_mask_anchor: False
+    REG_LOSS:
+        type: WeightedSmoothL1Loss
+        weight: 0.2

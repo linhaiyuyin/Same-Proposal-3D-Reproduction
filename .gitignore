@@ -1,0 +1,11 @@
+/CLEAN-main/
+/storage/
+/.venv/
+/.clean-*/
+/__pycache__/
+__pycache__/
+*.py[cod]
+*.so
+*.pth
+*.pt
+*.pkl

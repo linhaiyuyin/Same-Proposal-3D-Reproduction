@@ -1,0 +1,202 @@
+{
+  "pcdet/datasets/__init__.py": {
+    "frozen_sha256": "da9391469f7293e5270247df6747023fd08a7de9c527f4ee1cb8854866189e46",
+    "release_sha256": "4c3a8c252ee3adebc734d170e10660ffef8a0b4fb03ff5347db6daeddf2932ad"
+  },
+  "pcdet/datasets/augmentor/data_augmentor.py": {
+    "frozen_sha256": "0ea4920fbcc719ea5c829090da8af328d04ef8bd266408d8583bc3180b7126ab",
+    "release_sha256": "1a69423b716444b300dd84c9ca68588ee5e5edfe5194dd54d36bbb55a257e6ea"
+  },
+  "pcdet/datasets/augmentor/database_sampler.py": {
+    "frozen_sha256": "adec1060e40af6ce1232153fcd733a96bfd36ad2357061022b3d0766665aa5c0",
+    "release_sha256": "bb4dd62d02ba5d002eddcf1775225a20f6e4dc5367629beabc9bdafd4a8b0ce5"
+  },
+  "pcdet/datasets/dataset.py": {
+    "frozen_sha256": "74efbb170bca31b1b8224a207891a1d3985b869418d669eddfdb102b3002ca77",
+    "release_sha256": "209f0bdf03cc3f579a2f4b4d017bd97e87e1b235b07f336858fecbbf0c24a552"
+  },
+  "pcdet/datasets/kitti/kitti_dataset.py": {
+    "frozen_sha256": "fa5ed0d10a9ba059e97b78c61485ad3184071cc994978754c2e50763b5947ef4",
+    "release_sha256": "d8df0abf929ba0451102625aebd83cb40b265d9ec9acb8a76f3a0acb380f6d92"
+  },
+  "pcdet/datasets/kitti/kitti_object_eval_python/kitti_common.py": {
+    "frozen_sha256": "a33dad60728e320c6f483b18eb2092022e772f38599a8063941e524ae5f344b2",
+    "release_sha256": "69dd25f6161f8b626bf3b29e91f3e6ac34eb53181a25354863eae0c3b1d57517"
+  },
+  "pcdet/datasets/kitti/kitti_object_eval_python/rotate_iou.py": {
+    "frozen_sha256": "e282aa80f06fbb70b4a7538b726c94905c85f5e76a097be08f5e51e7750355ef",
+    "release_sha256": "1342b4d6cc02be91d0f72efcc63891cbfcbceb8b7490464ad4a0db9763b1f8c4"
+  },
+  "pcdet/datasets/processor/data_processor.py": {
+    "frozen_sha256": "f77691dee74279290d664f67a0c9e76e57ff69d69f368542365e8795c25066c4",
+    "release_sha256": "2895a49d06b3c9154c4f1d14824aff8a53b06d6159964ef7b84658ada8dd68fc"
+  },
+  "pcdet/models/backbones_2d/base_bev_backbone.py": {
+    "frozen_sha256": "deb8df03dfc10727d5df3d0389483018076cbce9488e9740ad9f474bc676ed5e",
+    "release_sha256": "077ef1a52ef2369b889110d52ba80efa6de9209f1946503e69754093deea94b5"
+  },
+  "pcdet/models/kd_heads/anchor_head/anchor_feature_kd_head.py": {
+    "frozen_sha256": "8d35b6de836ca7b4aac371d7b1f043bc1a329395e85ebe0fd6bd0ae35d4056a5",
+    "release_sha256": "0bba29eb0472ce1a5b0e8d2fee2244dca2eb6ac4d1b2688a7debf9a67e762ed3"
+  },
+  "pcdet/models/kd_heads/anchor_head/component_distillation.py": {
+    "frozen_sha256": "6960d269b5c137f6d435bb5023a3ccc7766e663458ba08c83f085d85c4cda883",
+    "release_sha256": "6960d269b5c137f6d435bb5023a3ccc7766e663458ba08c83f085d85c4cda883"
+  },
+  "pcdet/models/kd_heads/anchor_head/object_priority.py": {
+    "frozen_sha256": "311c834080e892018a14ff2078652d68dba879c5c1820466fe45ff66c0579ca3",
+    "release_sha256": "311c834080e892018a14ff2078652d68dba879c5c1820466fe45ff66c0579ca3"
+  },
+  "pcdet/models/kd_heads/anchor_head/stage_target_distillation.py": {
+    "frozen_sha256": "dbad8d34cfc2b80a2f2e5dd53db7355582bad0cb4adfabd601e5431f95dd5224",
+    "release_sha256": "dbad8d34cfc2b80a2f2e5dd53db7355582bad0cb4adfabd601e5431f95dd5224"
+  },
+  "pcdet/models/kd_heads/kd_head.py": {
+    "frozen_sha256": "27972c13d7fc5a945b6532e825d67cf9009daa42669e18cfbc93be3bd67c75e4",
+    "release_sha256": "056ecaf31e3321f125af70ba84397423da5cdb06e26303cdbbb199baefb18e5e"
+  },
+  "pcdet/models/kd_trans_block/kd_trans_block.py": {
+    "frozen_sha256": "3c40d8ece8e660583a730fb782b6381bac3250c23ea3b00328413ed745aa8ee5",
+    "release_sha256": "abfcc2fa57926e1c979fc9b78b2eb1c3c95343a855e62c2c6841c980cf1788a8"
+  },
+  "pcdet/ops/pointnet2/pointnet2_batch/src/ball_query.cpp": {
+    "frozen_sha256": "6891d5262b50c6cab3f0db6b8375aebbe1e92cca6e9a4a6d799f2b41e2884fcc",
+    "release_sha256": "03332f527469e1171eea2b825701844eb3a7abc3274f21b60ca9a03fb32d6b01"
+  },
+  "pcdet/ops/pointnet2/pointnet2_batch/src/group_points.cpp": {
+    "frozen_sha256": "aef6dcafda284812c7c3da5122e345fc07ef0f504ee257a30b3598163b518af0",
+    "release_sha256": "f028fcd1f9c0fecae6d01cf85b7e217e698415bd2a4baffeef92d30f261ebfb9"
+  },
+  "pcdet/ops/pointnet2/pointnet2_batch/src/interpolate.cpp": {
+    "frozen_sha256": "6b3f3f94e5b9162dc5f910533fd7404f21d90cde553b9bda5aa507c20dc8fd88",
+    "release_sha256": "6387752e86be36791e385d6a969bc874c336fed9a591ddb457e0dc7d6b0a59e6"
+  },
+  "pcdet/ops/pointnet2/pointnet2_batch/src/sampling.cpp": {
+    "frozen_sha256": "8796fa2f2de8ba477ba560616da313e17cff47e1dba487012893a879ba6081b4",
+    "release_sha256": "81d4f93b23291216120db7bcef13809276b78faca18106c0b7841fc609b15573"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/ball_query.cpp": {
+    "frozen_sha256": "58cd0ef906183cc23cdf1db07bd43d4286338566c20a44f34836226f7a8fd8dc",
+    "release_sha256": "b069559bc8ddfdecc1ffa44c3fd82b228a3d36554d354369e59f0f35a611ec66"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/group_points.cpp": {
+    "frozen_sha256": "a43a09400eaa5562754216425908093b690c6d3a263a6b5fd0b1e15153d5d34f",
+    "release_sha256": "031fd5f34da8d933b2c7964320052a9fd42e39239cd5448600ed405bb147532c"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/interpolate.cpp": {
+    "frozen_sha256": "ef82b7a3d53e1d7dbd466707373d9e3e1397f0020294a87292bae93f85325f1d",
+    "release_sha256": "bf6c2e740520f67d9ebb81f6767b1b02411f18480862ee8613a80d499f5cc1a0"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/sampling.cpp": {
+    "frozen_sha256": "4f1b697457722169a21487f0a95046ef4c70112eabd689902bc3238f6f749074",
+    "release_sha256": "d11e722823c6a0260cb75d71f7bbfbb7df2fa48f843e2af0d5586e275147515e"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/vector_pool.cpp": {
+    "frozen_sha256": "f047a3093c4b0210e03c85b7ada623fa1ffa6a7da008d201dd43494926877bfb",
+    "release_sha256": "d098e6d2db7617077532d3fde6e07bc5ef0b482fe39eaa2377f948507fbb9cd9"
+  },
+  "pcdet/ops/pointnet2/pointnet2_stack/src/voxel_query.cpp": {
+    "frozen_sha256": "8d0c8bad13a141abee72993e63216f55180424decac8d37257128e97422f9011",
+    "release_sha256": "9255887d5c418e518bac60cf42ac55fe934383389514d6be966303d044991a67"
+  },
+  "pcdet/utils/box_utils.py": {
+    "frozen_sha256": "ce4250e60797699deb2ab1e4a2861aca1ccaaaf09ea8fe8e6655408e7cab48d5",
+    "release_sha256": "4aaddf66c2a36dd2ac67b39982c939e2d7d50702c08e41ffaa919ce712c70676"
+  },
+  "pcdet/utils/common_utils.py": {
+    "frozen_sha256": "d2e071e91ee71623791b5ea4a9d9371f29f0e85c3168f04e473acfa4d40af32e",
+    "release_sha256": "bc6aceeb6770fab70e1aa054b8e51db42c6435c5888f1cae8d2d6cf52ea72ec1"
+  },
+  "pcdet/utils/pruning_utils/prune_cp.py": {
+    "frozen_sha256": "38593cb66cb0e2875d7a284457ca53496b63280d0050b971b708aa0fda19bfbb",
+    "release_sha256": "adcdbfdfc0dfcfcda9097bdc6100835d19275fe1bdd15f25c136d409ca8e9476"
+  },
+  "pcdet/utils/pruning_utils/prune_plain_model.py": {
+    "frozen_sha256": "8f3c5ea7b13b7d6e871515b1e265c5c19719d0481a446fc027d065274aa0ae10",
+    "release_sha256": "c34873392ea0a9f9e7a2b6059c62d1c60724117e7ab9896ed61390ba6cb99ed9"
+  },
+  "setup.py": {
+    "frozen_sha256": "962519c34b1ccf2098a4502887663b7abda4086655cbeb8112a49adf1656689e",
+    "release_sha256": "962519c34b1ccf2098a4502887663b7abda4086655cbeb8112a49adf1656689e"
+  },
+  "tools/cfgs/dataset_configs/kitti_dataset.yaml": {
+    "frozen_sha256": "9248d0307847d9b3d179f56175244564111e6565f273599e1344756cae3cdaa2",
+    "release_sha256": "1845290b8cce6a19cc1ca710d173e5d3b1b9dd359ff3b7df22357e10b8b79635"
+  },
+  "tools/cfgs/kitti_CLEAN/second-voxel-x0.25.yaml": {
+    "frozen_sha256": "1fb097c1282a90ad835210f3bd7bb0eb1397c75029b561c878e97f69117b846d",
+    "release_sha256": "bcb1a3685638636a558962c2b07ce5b95b8d11dcf6a6ede2d365f09e11bc1f72"
+  },
+  "tools/cfgs/kitti_CLEAN/second-voxel-x0.40.yaml": {
+    "frozen_sha256": "c7406e97fb2017db4a42cc148d006cfb5b38b1d846b73c3c38e7ab0a0b8b535e",
+    "release_sha256": "543cc327b8ea23502a859c2bf536148d9dcec3aeaf90272de9ec12fd937ee6e1"
+  },
+  "tools/cfgs/kitti_controls/second-x0.40-no-kd.yaml": {
+    "frozen_sha256": "e02bea4aea3e2344f2550bcc8959bca0b209bd583ea03444780131fa635a3fc2",
+    "release_sha256": "e02bea4aea3e2344f2550bcc8959bca0b209bd583ea03444780131fa635a3fc2"
+  },
+  "tools/cfgs/kitti_controls/second-x0.40-sparsekd.yaml": {
+    "frozen_sha256": "5acd02526b251cf5583a8dc80d2e8fe0e27d69bd89856c9982ca6e4fbbb86e82",
+    "release_sha256": "5acd02526b251cf5583a8dc80d2e8fe0e27d69bd89856c9982ca6e4fbbb86e82"
+  },
+  "tools/cfgs/kitti_diagnostics/second-x0.40-aligned.yaml": {
+    "frozen_sha256": "7d3af19157bc7a78309f2de00beb4f9f50a50fdad44317908786e46fd0ff4d6c",
+    "release_sha256": "7d3af19157bc7a78309f2de00beb4f9f50a50fdad44317908786e46fd0ff4d6c"
+  },
+  "tools/cfgs/kitti_methods/ch3-v3-b-formal-bn.yaml": {
+    "frozen_sha256": "b9cc45623bf45f742a953a19a08b5eeb60e9ca242b1be081646a1ac56c0b5fa4",
+    "release_sha256": "efee1b98f47a4ad7ef54b827eb266a53c347077281593487aede8a99b19fb0f3"
+  },
+  "tools/cfgs/kitti_methods/ch3-v3-b-formal-reconstructed.yaml": {
+    "frozen_sha256": "262b566c7f47d514fced7eafc2f03a6619265bb410d0ed452997d2f89529ad9f",
+    "release_sha256": "665a26020f4b4641606e0d658f2cab755e1c685c2159b88b60688293f6bf7c8b"
+  },
+  "tools/cfgs/kitti_methods/fisher-aligned.yaml": {
+    "frozen_sha256": "e9d2532530ac6b4cef0ff64588ef71346429a10153623c13e66f5a7250573b90",
+    "release_sha256": "e9d2532530ac6b4cef0ff64588ef71346429a10153623c13e66f5a7250573b90"
+  },
+  "tools/cfgs/kitti_methods/paper-stage-025-late.yaml": {
+    "frozen_sha256": "e82ba8a9be865531de69806a3c86cc43923de499e6d0bee072ef7feb8f5671c7",
+    "release_sha256": "e82ba8a9be865531de69806a3c86cc43923de499e6d0bee072ef7feb8f5671c7"
+  },
+  "tools/cfgs/kitti_methods/paper-stage-040-count-matched.yaml": {
+    "frozen_sha256": "34a3e8cc86a060fb8e3ff9e073d448c25ca20058aa60b3df2dc4ac597e044bb3",
+    "release_sha256": "34a3e8cc86a060fb8e3ff9e073d448c25ca20058aa60b3df2dc4ac597e044bb3"
+  },
+  "tools/cfgs/kitti_methods/paper-stage-040-early.yaml": {
+    "frozen_sha256": "bbd04df586221dbc24fe2820885349d459f1701c94231f342e21e0392873c14d",
+    "release_sha256": "bbd04df586221dbc24fe2820885349d459f1701c94231f342e21e0392873c14d"
+  },
+  "tools/cfgs/kitti_methods/paper-stage-040-matched-gt.yaml": {
+    "frozen_sha256": "b316b8b48a937b3f499032a7e4512d5f67c6ce6045e4873ab31e1b18241efe2d",
+    "release_sha256": "b316b8b48a937b3f499032a7e4512d5f67c6ce6045e4873ab31e1b18241efe2d"
+  },
+  "tools/cfgs/kitti_methods/round1-stage-late.yaml": {
+    "frozen_sha256": "1d0347923b2df955a121766b354f86aede5883f0a1c24dfda32bdd61305bf82c",
+    "release_sha256": "1d0347923b2df955a121766b354f86aede5883f0a1c24dfda32bdd61305bf82c"
+  },
+  "tools/cfgs/kitti_models/voxel_rcnn_clean_three_class.yaml": {
+    "frozen_sha256": "0d3cdbd6eb0ed34f70aa3e196bcf37bf395fe27faa9cee13fbbda4b6332dd954",
+    "release_sha256": "0d3cdbd6eb0ed34f70aa3e196bcf37bf395fe27faa9cee13fbbda4b6332dd954"
+  },
+  "tools/measure_doc/kitti-cal96-fisher-matched-x040.txt": {
+    "frozen_sha256": "fc4f0ac1d2969c2b376c5e486527b226136ca869e409090e3f54e57b831fc065",
+    "release_sha256": "fc4f0ac1d2969c2b376c5e486527b226136ca869e409090e3f54e57b831fc065"
+  },
+  "tools/train.py": {
+    "frozen_sha256": "d7a8ce572be79ab9525589176c52e49ecfa6484e1299aef08bbbf7f7f5624817",
+    "release_sha256": "2273d6b32a5173fd0e55d3a03efaedb6d1bb3834a2348ba53fad440942c48692"
+  },
+  "tools/train_utils/optimization/learning_schedules_fastai.py": {
+    "frozen_sha256": "ab1f4038b360cf8abba9c45c51b41dd2f60d812e34dbc161ed1b30de13a319f6",
+    "release_sha256": "be6352e1d3973ca50d9c77ed1ae697b07d055747176e4d8526684a71f90f1627"
+  },
+  "tools/train_utils/train_utils.py": {
+    "frozen_sha256": "d22a015d5acd6d9ae6c034a57edd7de63fce1744dca4c0f13eedd5f78f7b2e3d",
+    "release_sha256": "4c4e847d66d234ba720755895cdeeb30f1f37983cd3711286a285bbde25a6003"
+  },
+  "tools/train_with_pruning.py": {
+    "frozen_sha256": "a4d99783bc90e9a4f51f653154cb051fa421fdd36ba91f9732f131ac61c1fa60",
+    "release_sha256": "583087b1616cb0a5e792de268e609e65087fd81fe2ceca162ddf376bd415dc2a"
+  }
+}

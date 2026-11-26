@@ -1,0 +1,72 @@
+{
+  "inputs": {
+    "second_original": {
+      "sha256": "05311f3815eeacf4966900d1cab342fb7770943751cf3bbf274c74817e9121f4",
+      "bytes": 63983239,
+      "source": "https://drive.google.com/file/d/1F1Ikf-oPBpZrsEHbngHbyPAff7mSZ6HX/view"
+    },
+    "second_tensor_state": {
+      "sha256": "47dde75365eb73a3328fbe6690c14d1faa17d33c1a9114e1b2a5ddbcd447807d",
+      "bytes": 21383725
+    },
+    "voxel_rcnn_teacher": {
+      "sha256": "f775d893a5ded20f745459eb44a737c93fa3aa8ab335bab9e4ae11fff809e962",
+      "bytes": 44028945
+    },
+    "road_planes_zip": {
+      "sha256": "672451441ebbbff360d2a9465f04712f0f4bb8fe033b70203485cf3d803cf2f4",
+      "bytes": 1800005,
+      "source": "https://drive.google.com/file/d/1d5mq0RXRnvHPVeKx6Q612z0YRO1t2wAp/view"
+    },
+    "kitti_train_infos": {
+      "sha256": "e330b8d865ea4c7d89e15e9ef8d75f06d0dfabd668ac89081847dd720050da34",
+      "bytes": 8107156
+    },
+    "kitti_val_infos": {
+      "sha256": "06455d1de46c75a39fa55348a7020ad44bd5db53b944167a1be74c5e752f9cbb",
+      "bytes": 8464411
+    },
+    "kitti_train_database_index": {
+      "sha256": "f589bcc77c52e7f6a88215e76f997bbc5f637ec98ec647f9e214e9f6320a9d1e",
+      "bytes": 5625257
+    },
+    "bev_bn_initialization": {
+      "sha256": "9569d224f0b2c84e7eca21c98853ee305960a5bfaf9794604e09547e797a7b74",
+      "bytes": 2493
+    },
+    "bev_reconstructed_initialization": {
+      "sha256": "37ac38f0cd58180eb09b519a756bef2d254c7aadeac558f663f6a181235bd670",
+      "bytes": 315580
+    }
+  },
+  "source_archives": {
+    "distillation_source_sha256": "af085fa7f14b27fe1578c98d34e9524d980597ec247f8a83c8bdf561e06db0b5",
+    "bev_source_sha256": "a81d60d0f22ed6255cc0e70f832336fb5288c08aa5df5973d492b5f583e54662"
+  },
+  "protocol": {
+    "seeds": [
+      666,
+      667,
+      668
+    ],
+    "epochs": 80,
+    "updates": 18560,
+    "global_batch": 16,
+    "class_iou": [
+      0.7,
+      0.5,
+      0.5
+    ],
+    "val_frames": 3769,
+    "timing": {
+      "warmup": 100,
+      "frames": 500,
+      "repeats": 3
+    },
+    "loss_weight": 0.2,
+    "deployment_parameters": {
+      "040": 1312349,
+      "025": 604664
+    }
+  }
+}
